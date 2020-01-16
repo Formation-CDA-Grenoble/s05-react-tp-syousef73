@@ -1,8 +1,13 @@
 import React from 'react';
-import oeuvre from './composants/oeuvre'
 
-export default () =>
-  <div>
-    Tout commence ici!
+import pargraphe from './composants/paragraphe'
+
+
+export default () => {
+  console.log()
+ return ( <div>
+    <pargraphe/>
+
   </div>
+  )}
 ;
